@@ -1,10 +1,27 @@
 @font-face {
-    font-family: Hobbiton Brushhand;
-    src: url('static/HobbitonBrushhandhobbitonBrush-WygA.ttf') format('truetype');
+    font-family: 'Hobbiton';
+    src: url('HobbitonBrushhandhobbitonBrush-WygA.ttf');
 }
 
 body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
     background-color: bisque;
 }
+
+body > h1 {
+    font-family: 'Hobbiton';
+}
+
+h2 {
+    font-family: 'Hobbiton';
+}
+
+a {
+    font-size: 1.5rem;
+    font-family: 'Hobbiton';
+}
+
+
 
 /* url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype'); */
